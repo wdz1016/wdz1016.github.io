@@ -1,0 +1,17 @@
+body {background: #000  no-repeat center 240px;}
+
+#div1 {position:relative; width:450px; height:450px; margin:0 70%; }
+#div1 a {position:absolute; top:0px; left:0px; font-family: Microsoft YaHei; color:#fff; font-weight:bold; text-decoration:none; padding: 3px 6px; }
+#div1 a:hover {border: 1px solid #eee; background: #000; }
+#div1 .blue {color:blue;}
+#div1 .red {color:red;}
+#div1 .yellow {color:yellow;}
+
+#tittle{color:#ccc;margin:0 auto;width:200px;height:50px;text-align:center;font-size:36px;}
+#list{width:400px;position:absolute;left:35%;top:15%;}
+#list li{color:#ccc;margin-top:15px;}
+
+.home_list{width:200px;height:40px;position:absolute;font-size:36px;color:#333;left:50px;font-weight:bold;}
+.list1{top:75px;}
+.list2{top:150px;left:75px;}
+.list3{top:225px;left:100px;}
