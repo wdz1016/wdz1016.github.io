@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {background:#000; font-size:250%; color:#fff;}
+*{ margin:0; padding:0; list-style:none; font-family: "微软雅黑","张海山锐线体简"}
+.clock{position:absolute;bottom:0;right:0;width:250px;height:50px;}
+#div1{width:600px;height:500px;position:absolute;left:30%;;top:20%;}
+.home_list{width:200px;height:40px;position:absolute;font-size:36px;color:#333;left:50px;font-weight:bold;}
+.list1{top:75px;}
+.list2{top:150px;left:75px;}
+.list3{top:225px;left:100px;}
