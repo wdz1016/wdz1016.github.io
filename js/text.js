@@ -1,9 +1,4 @@
-// JavaScript Document
-/*
-360度 = 2Pi弧度
 
-n弧度 = n*180/Pi
-*/
 
 function a2d(n){
 	return n*180/Math.PI	
@@ -11,8 +6,7 @@ function a2d(n){
 function getDir(obj,ev){
 	var x = ev.clientX - (obj.offsetLeft + obj.offsetWidth/2)
 	var y = obj.offsetTop + obj.offsetHeight/2 - ev.clientY;
-	
-	//0 左边  1 下边 2 右边 3上边
+
 	return Math.round((a2d(Math.atan2(y,x))+180)/90)%4;
 }
 
